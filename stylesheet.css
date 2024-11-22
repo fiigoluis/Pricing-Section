@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.top-pricing-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    padding: 3rem 0 1rem 0;
+}
+
+.top-pricing-section-title{
+    color:#5850E7;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.top-pricing-section-H1 h1{
+    font-size:3rem;
+    text-align: center;
+    font-weight:600;
+}
+
+.top-pricing-section-body p{
+    font-size:1.25rem;
+    text-align: center;
+    font-weight:300;
+    color: #4B5563;
+}
+
+.bottom-pricing-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.bottom-section-top{
+    display: flex;
+    flex-direction: row;
+    padding: 0.063rem;
+    border: 0.063rem solid #E6E7EB;
+    border-radius: 4rem;
+}
+
+.bottom-section-top-content{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 100%;
+    height: auto;
+    padding: 0.25rem;
+}
+
+.with-fill{
+    background-color: #5850E7;
+    color: white;
+    padding:0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.without-fill{
+    background-color:transparent;
+    color:#4B5563;
+    padding:0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.bottom-section-top-below{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 0.063rem solid #cdcdcd;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.card-cta{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-title h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card-title p{
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #4B5563;
+}
+
+.cta-title{
+    display: flex;
+    flex-direction: row;
+    gap:0.25rem ;
+    align-items: end;
+}
+
+.cta-title h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: end;
+    line-height: 100%;
+}
+
+
+
+.cta-title p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4B5563;
+}
+
+button{
+    background-color: #5850E7;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #403aa8;
+}
+
+.button-cta{
+    width: 100%;
+    padding: 0.75rem 0;
+}
+
+.button-cta p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+}
+
+
+.card-detail-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem; 
+}
+
+.list p{
+    color: #4B5563;
+}
+
+.material-icons{
+    color: #403aa8;
+}
+
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #101827;
+    border: 0.063rem solid;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.card-title2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-title2 h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.card-title2 p{
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #C2C6CE;
+}
+
+.card-cta2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.cta-title2{
+    display: flex;
+    flex-direction: row;
+    gap:0.25rem ;
+    align-items: end;
+}
+
+.cta-title2 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: end;
+    line-height: 100%;
+    color: white;
+}
+
+
+.card-detail-list2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem; 
+}
+
+.list2 p{
+    color: #C2C6CE;
+}
